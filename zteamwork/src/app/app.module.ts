@@ -5,11 +5,13 @@ import {RouterModule} from '@angular/router';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import {master_routes} from './app.routes';
+import { SginupComponent } from './sginup/sginup.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    SginupComponent
   ],
   imports: [
     BrowserModule,
